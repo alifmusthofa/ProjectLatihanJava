@@ -8,5 +8,9 @@ public class Main {
         h.tampil();
         h.tampil();
 
+        bunga b = new bunga();
+        b.siram();
+
+
     }
 }
