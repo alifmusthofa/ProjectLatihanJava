@@ -6,6 +6,7 @@ public class Main {
         System.out.println("ini adalah negeri hewan");
         hewan h = new hewan();
         h.tampil();
+        h.tampil();
 
     }
 }
