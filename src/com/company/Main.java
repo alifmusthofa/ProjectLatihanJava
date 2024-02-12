@@ -7,7 +7,7 @@ public class Main {
         hewan h = new hewan();
         h.tampil();
         h.tampil();
-
+        h.tampil();
         bunga b = new bunga();
         b.siram();
 
