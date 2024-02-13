@@ -28,5 +28,15 @@ public class maininterfacebaru {
         elangsumatra.terbang();
         elangsumatra.terbang();
         elangsumatra.makandaging("sapi");
+
+        /*penggunaan type data yang sama dengan interface pada var Elang untuk Enkapsulasi/perbatasan
+         * akses ke kelas elang*/
+        System.out.println();
+        Hewanburungpemburu aya = new ayam();
+        burungpemburu ayamjago = new burungpemburu(aya);
+        aya.nama();
+        ayamjago.terbang();
+        ayamjago.turun();
+        ayamjago.makandaging("cacing");
     }
 }
